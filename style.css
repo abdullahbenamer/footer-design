@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+  
+}
+
+/* Adding Styles to div “company-details”  
+
+First style the basic layout: Set the basic margins, paddings, background color and align the texts to center. 
+Add the below CSS code to your style.css:  */
+
+.company-details {
+    overflow: hidden;
+    padding: 3em 0em;
+    background: #DDD;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;/* CENTERING*/
+    display: flex;/*flex & justify-content together CENTERING contents */
+    justify-content: center; 
+ 
+}
+
+/* Aligning the three columns in one line: Float all of the three columns to the left and assign a width of 320px to each one of them. */
+#footer #col1, #col2, #col3 {
+    float: left;
+    padding: 0px 40px 0px 40px;
+}
+
+/* Adding Styles to the FontAwesome Icons: Set the font-size of the icons to 3em and a bottom-margin of 1em and display them as block.  */
+#footer #icon {
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 3em;
+}
+
+
+/* Adding Styles to div “copyright” 
+ Adding Styles to basic layout: Set the basic margins, paddings, background-colors etc. for the 
+ copyright class. */
+
+.copyright {
+    overflow: hidden;
+    padding: 3em 0em;
+    border-top: 20px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    background: #212121;
+}
+
+/* Adding style to the paragraph P element: Add styles to the copyright information stored in <p> tags. Add letter-spacing, color etc. */
+
+.copyright p {
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    color: rgba(255,255,255,0.6);
+}
+
+/* Adding Styles to the anchor a tag: Set the color of the anchor tag and text-decoration to none:  */
+
+.copyright a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.6)
+
+}
+
+/* Adding styles to the Social Icons: Remove the margin from the ul or class named “contact”, add padding and set the list-style to none:  */
+
+ul.contact {
+    margin: 0;
+    padding: 2em 0em 0em;
+    list-style: none;
+
+
+}
+
+/* Set the list items to display as inline-block so that the icons can be displayed horizontally instead of vertically. Also add padding and font-size to the list items.  */
+
+ul.contact li {
+    display: inline-block;
+    padding: 0em 0.5em;
+    font-size: 1em;
+}
+
+/* After adding the above two styles, the icons will now be arranged horizontally and at the center of the copyright div. */
+
+/* add background for the social icons. */
+
+ul.contact li a {
+    color: #FFF;
+    display: inline-block;
+    background: #4C93B9;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+ul.contact li a:hover {
+    color:#052865;
+}
+
